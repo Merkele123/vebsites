@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <!-- Meta tags for SEO and responsiveness -->
+    <meta name="description" content="Showcase 3D Effect with CSS, HTML, Swiper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta property="og:image" content="images/preview.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap-reboot.min.css"> <!-- Bootstrap reset styles -->
+    <link rel="stylesheet" href="libs/swiper/swiper-bundle.min.css"> <!-- Swiper styles -->
+    <link rel="stylesheet" href="style.css"> <!-- Main styles -->
+    <link rel="stylesheet" href="media.css"> <!-- Responsive styles -->
+    <link rel="stylesheet" href="main.css"> <!-- Additional styles -->
+</head>
+<body>
+ 
+    <section class="showcase">
+       
+        <h2 class="showcase-header">Hoodie <span>Mantle</span></h2>
+       
+        <div class="showcase-content-wrapper">
+            <div class="showcase-content">
+              
+                <!-- Swiper Carousel -->
+                <div class="showcase-carousel">
+                    <div class="swiper-wrapper">
+                        
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide showcase-carousel-item">
+                            <div class="showcase-carousel-img-wrapper">
+                                <div class="showcase-carousel-img-left">
+                                    <div class="showcase-carousel-img" style="background-image: url(images/1.png)"></div>
+                                </div>
+                            </div>
+                            <p>Front</p>
+                        </div>
+                        
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide showcase-carousel-item">
+                            <div class="showcase-carousel-img-wrapper">
+                                <div class="showcase-carousel-img-left">
+                                    <div class="showcase-carousel-img" style="background-image: url(images/2.png)"></div>
+                                </div>
+                            </div>
+                            <p>Front Two</p>
+                        </div>
+                        
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide showcase-carousel-item">
+                            <div class="showcase-carousel-img-wrapper">
+                                <div class="showcase-carousel-img-left">
+                                    <div class="showcase-carousel-img" style="background-image: url(images/3.png)"></div>
+                                </div>
+                            </div>
+                            <p>Front Three</p>
+                        </div>
+                        
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide showcase-carousel-item">
+                            <div class="showcase-carousel-img-wrapper">
+                                <div class="showcase-carousel-img-left">
+                                    <div class="showcase-carousel-img" style="background-image: url(images/4.png)"></div>
+                                </div>
+                            </div>
+                            <p>Front Four</p>
+                        </div>
+                    </div>  
+                </div>
+              
+                <!-- Navigation Buttons -->
+                <div class="showcase-navigation">
+                    <div class="showcase-navigation-prev"></div>
+                    <div class="showcase-navigation-next"></div>
+                </div>
+            </div>
+        </div> 
+           
+        <!-- Background Video -->
+        <video src="videos/smoke-background-optimized.mp4" class="showcase-video" autoplay loop muted></video>
+    </section>
+  
+    <!-- JavaScript Libraries -->
+    <script src="swiper-bundle.min.js"></script>    
+    <script src="app.js"></script>
+  
+</body>
+</html>

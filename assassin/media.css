@@ -1,0 +1,80 @@
+/* === Responsive Design === */
+/* Desktop-first approach */
+
+/* XXL (1400px and below) */
+@media (max-width: 1400px) {
+    .showcase-content {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+/* XL (1200px and below) */
+@media (max-width: 1200px) {
+    /* Add relevant styles when needed */
+}
+
+/* LG (992px and below) */
+@media (max-width: 992px) {
+    .showcase-content {
+        padding: 0 20px;
+    }
+}
+
+/* MD (768px and below) */
+@media (max-width: 768px) {
+    .showcase-header {
+        font-size: 24px;
+    }
+}
+
+/* SM (576px and below) */
+@media (max-width: 576px) {
+    .showcase-header {
+        font-size: 20px;
+    }
+}
+
+/* === Mobile-first adjustments === */
+
+/* XS (any screen size) */
+@media (min-width: 0px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Small screens (≥ 576px) */
+@media (min-width: 576px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Medium screens (≥ 768px) */
+@media (min-width: 768px) {
+    .text {
+        font-size: 1rem;
+    }
+}
+
+/* Large screens (≥ 992px) */
+@media (min-width: 992px) {
+    .text {
+        font-size: 1.1rem;
+    }
+}
+
+/* XL screens (≥ 1200px) */
+@media (min-width: 1200px) {
+    .text {
+        font-size: 1.2rem;
+    }
+}
+
+/* XXL screens (≥ 1400px) */
+@media (min-width: 1400px) {
+    .text {
+        font-size: 1.4rem;
+    }
+}
